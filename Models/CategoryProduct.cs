@@ -5,12 +5,10 @@ using System.Web;
 
 namespace Prueba2.Models
 {
-    public class Product
+    public class CategoryProduct
     {
-
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Descripcion { get; set; }
-        public CategoryProduct IdCategoria { get; set;}
+        public List<Product> Products { get; set; }
     }
 }
